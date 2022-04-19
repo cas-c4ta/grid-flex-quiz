@@ -22,6 +22,7 @@ Tipp: grid-area verwenden: grid-row-start / grid-column-start / grid-row-end / g
 
 
 /* Solution  */
+
 /* .item1 {
     grid-area: 1 / 2 / span 2 / span 2
 } */
