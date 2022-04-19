@@ -1,0 +1,27 @@
+/* Der Eintrag "item1" soll in Zeile 1, Spalte 2 beginnen und sich 
+über 2 Zeilen und 2 Spalten erstrecken
+
+Tipp: grid-area verwenden: grid-row-start / grid-column-start / grid-row-end / grid-column-end. */
+
+
+.wrapper {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: auto auto auto auto; 
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box{
+  background-color: #2196F3;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+/* Solution  */
+/* .item1 {
+    grid-area: 1 / 2 / span 2 / span 2
+} */
