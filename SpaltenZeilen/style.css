@@ -21,8 +21,19 @@ Tipp: grid-area verwenden: grid-row-start / grid-column-start / grid-row-end / g
 }
 
 
-/* Solution  */
-
 /* .item1 {
     grid-area: 1 / 2 / span 2 / span 2
 } */
+
+/*
+
+Anm. Josef: Ich würde folgende Lösung vorschlagen.
+
+.item1 {
+  grid-row: 2/4;
+  grid-column: 2/4;
+}
+
+Finde ich a) einfacher verständlich, weil es mit den Hilfslinien der Dev-Tools Visualisierung korrespondiert, und b) wird von mir so im Video erklärt.
+
+*/
