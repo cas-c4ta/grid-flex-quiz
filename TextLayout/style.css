@@ -3,20 +3,21 @@
 
 .wrapper {
     /* To Do */
-  }
+}
 
-  .box1 {
+.box1 {
     background: #eee;
     padding: 1em;
-  }
-  .box2 {
+}
+
+.box2 {
     background: #ddd;
     padding: 1em;
-  }
+}
 
 
-  /* Solution */
-  /* .wrapper {
+/* Solution */
+/* .wrapper {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 1em;
