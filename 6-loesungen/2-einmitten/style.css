@@ -1,0 +1,10 @@
+/* Lösung (2, einmitten) */
+
+header {
+  height: 300px;
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+}

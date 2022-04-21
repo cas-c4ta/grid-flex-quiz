@@ -1,0 +1,61 @@
+body { /* Rand entfernen */
+  margin: 0;
+}
+
+
+header {
+  /* Lösung (1, Reihenfolge) */
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0.5rem;
+
+  /* Lösung (2, einmitten) */
+  height: 300px;
+  background: lightgray
+}
+
+h1 {
+  margin: auto;
+}
+
+/* Lösung (3, Navigation) */
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Lösung (4, Raster) */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  padding: 2rem 6rem;
+}
+
+main h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.full-width {
+  grid-column: 1/-1;
+}
+
+/* Bonus */
+
+.teaser {
+  display: flex;
+  flex-direction: flex;
+  flex-wrap: wrap-reverse;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.teaser-text {
+  margin: 0.5rem 0 0;
+}
